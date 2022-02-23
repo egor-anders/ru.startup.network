@@ -36,7 +36,7 @@ def make_json(data):
 
 def main():
     card_counter = 0
-    for page_number in range(1, 12):
+    for page_number in range(1, 2):
         
         html = get_html(main_url + f'/{page_number}/')
 
